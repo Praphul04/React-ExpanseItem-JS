@@ -42,7 +42,7 @@ const App = () => {
 
     return (
       <>
-        <div>
+        <div >
           <Expenses item={expenses}/>
         </div>
       </>
