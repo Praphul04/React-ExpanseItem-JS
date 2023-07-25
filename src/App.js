@@ -2,6 +2,7 @@
 import React from "react";
 //import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses.js";
+import NewExpense from "./components/NewExpense/NewExpense.js";
 
 import "./App.css";
 
@@ -43,7 +44,9 @@ const App = () => {
     return (
       <>
         <div >
+          <NewExpense/>
           <Expenses item={expenses}/>
+          
         </div>
       </>
   );
